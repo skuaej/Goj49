@@ -37,7 +37,7 @@ SUPPORT_CHAT_ID = int(os.getenv("SUPPORT_CHAT_ID", "-1003555329185"))
 
 mongo_url = os.getenv(
     "MONGO_URL",
-    "mongodb+srv://user:pass@cluster.mongodb.net/?retryWrites=true&w=majority"
+    "mongodb+srv://sk5400552:shjjkytdcghhudd@cluster0g.kbllv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0g"
 )
 
 MUSJ_JOIN = os.getenv("MUSJ_JOIN", "https://t.me/cute_character_support")
