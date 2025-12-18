@@ -28,12 +28,12 @@ def LOGGER(name: str) -> logging.Logger:
 api_id = os.getenv("API_ID", "23343216")
 api_hash = os.getenv("API_HASH", "1d66f21cd828dc22b80e3750719bd94a")
 TOKEN = os.getenv("TOKEN", "8092720888:AAGdYNEUDOmGkPONuvO_YQ_ywdWly5INT2s")
-GLOG = os.getenv("GLOG", "gojo_waifu")
-CHARA_CHANNEL_ID = os.getenv("CHARA_CHANNEL_ID", "gojo_waifu")
-SUPPORT_CHAT_ID = os.getenv("SUPPORT_CHAT_ID", "-1002792716047")
-mongo_url = os.getenv("MONGO_URL", "mongodb+srv://Gojowaifu:waifu123@gojowaifu.royysxq.mongodb.net/?retryWrites=true&w=majority&appName=Gojowaifu")
+GLOG = os.getenv("GLOG", "cute_character_support2")
+CHARA_CHANNEL_ID = os.getenv("CHARA_CHANNEL_ID", "cute_character_support")
+SUPPORT_CHAT_ID = os.getenv("SUPPORT_CHAT_ID", "-1003555329185")
+mongo_url = os.getenv("MONGO_URL", "mongodb+srv://sk5400552:shjjkytdcghhudd@cluster0g.kbllv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0g")
 
-MUSJ_JOIN = os.getenv("MUSJ_JOIN", "https://t.me/+8KU5ZDxvZyw0N2U1")
+MUSJ_JOIN = os.getenv("MUSJ_JOIN", "https://t. me/cute_character_support")
 
 # Modified to support both image and video URLs
 START_MEDIA = os.getenv("START_MEDIA", "https://files.catbox.moe/4uf7r9.jpg,https://files.catbox.moe/3saw6n.jpg,https://files.catbox.moe/f5njbm.jpg,https://telegra.ph/file/1a3c152717https://files.catbox.moe/4uf7r9.jpg,https://files.catbox.moe/3saw6n.jpg,https://files.catbox.moe/33nb6o.jpg,https://files.catbox.moe/zpbvfn.jpg,https://files.catbox.moe/tqn7cq.mp4,https://files.catbox.moe/t8rcw6.mp4").split(',')
@@ -45,10 +45,10 @@ PHOTO_URL = [
 
 STATS_IMG = ["https://files.catbox.moe/zpbvfn.jpg"]
 
-SUPPORT_CHAT = os.getenv("SUPPORT_CHAT", "https://t.me/GOJO_NOBITA_II")
-UPDATE_CHAT = os.getenv("UPDATE_CHAT", "https://t.me/GOJO_SUPPORT_GROUP_II")
+SUPPORT_CHAT = os.getenv("SUPPORT_CHAT", "https://t. me/cute_character_support")
+UPDATE_CHAT = os.getenv("UPDATE_CHAT", T = os.getenv("UPDATE_CHAT", "https://t. me/cute_character_support")
 SUDO = list(map(int, os.getenv("SUDO", "7450385463").split(',')))
-OWNER_ID = int(os.getenv("OWNER_ID", "7553434931"))
+OWNER_ID = int(os.getenv("OWNER_ID", "7850114307"))
 
 # --------------------- TELEGRAM BOT CONFIGURATION -----------------------
 command_filter = f.create(lambda _, __, message: message.text and message.text.startswith("/"))
